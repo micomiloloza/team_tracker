@@ -1,0 +1,90 @@
+name: team_tracker
+description: A new team stats tracking project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.7.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons:
+
+  firebase_core:
+  firebase_analytics:
+  cloud_firestore:
+
+  firebase_auth:
+  # google_sign_in:
+  # apple_sign_in:
+
+  provider:
+  shared_preferences:
+  # upstate:
+
+  flutter_platform_widgets:
+  flutter_sheet_localization: ^1.0.0
+  simple_gravatar:
+  flutter_speed_dial: ^1.2.5
+  font_awesome_flutter: ^8.5.0
+  flutter_dialogs: ^1.0.2
+  enum_to_string: ^1.0.9
+  focus_detector: ^1.0.2
+  # flutter_3d_obj: ^0.0.6
+  human_anatomy:
+  flutter_svg: ^0.12.0
+  extended_image:
+  # undraw:
+  # flutter_auth_buttons:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_sheet_localization_generator: ^1.0.0
+  build_runner: ^1.3.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/default.png
+    - assets/images/defaultDark.png
+    - assets/images/undraw_fitness_stats.png
+    - assets/images/FinalBaseMesh.obj
+
+    - assets/human/head.svg 
+    - assets/human/left_ear.svg 
+    - assets/human/right_ear.svg 
+    - assets/human/left_eye.svg 
+    - assets/human/right_eye.svg 
+    - assets/human/nose.svg 
+    - assets/human/mouth.svg 
+    - assets/human/neck.svg 
+    - assets/human/chest.svg 
+    - assets/human/abdomin.svg 
+    - assets/human/pelvis.svg 
+    - assets/human/publs.svg 
+    - assets/human/left_soulder.svg 
+    - assets/human/right_soulder.svg 
+    - assets/human/left_arm.svg 
+    - assets/human/right_arm.svg 
+    - assets/human/left_elbow.svg 
+    - assets/human/right_elbow.svg 
+    - assets/human/left_forearm.svg 
+    - assets/human/right_forearm.svg 
+    - assets/human/left_wrist.svg 
+    - assets/human/right_wrist.svg 
+    - assets/human/left_hand.svg 
+    - assets/human/right_hand.svg 
+    - assets/human/left_thigh.svg 
+    - assets/human/right_thigh.svg 
+    - assets/human/left_knee.svg 
+    - assets/human/right_knee.svg 
+    - assets/human/left_leg.svg 
+    - assets/human/right_leg.svg 
+    - assets/human/left_ankle.svg 
+    - assets/human/right_ankle.svg 
+    - assets/human/left_foot.svg 
+    - assets/human/right_foot.svg
